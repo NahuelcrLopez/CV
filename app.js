@@ -57,19 +57,19 @@ function efectoHabilidades(){
     if(distancia_skills>=300 && entro==false){
         entro = true;
         const intervalHtml = setInterval(function(){
-            pintarBarra(html, 16, 0, intervalHtml);
+            pintarBarra(html, 12, 0, intervalHtml);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(javascript, 12, 1, intervalJavascript);
+            pintarBarra(javascript, 10, 1, intervalJavascript);
         },100);
         const intervalExcel = setInterval(function(){
-            pintarBarra(excel, 11, 2, intervalExcel);
+            pintarBarra(excel, 10, 2, intervalExcel);
         },100);
         const intervalCisco = setInterval(function(){
             pintarBarra(cisco, 08, 3, intervalCisco);
         },100);
         const intervalCctv = setInterval(function(){
-            pintarBarra(cctv, 15, 4, intervalCctv);
+            pintarBarra(cctv, 12, 4, intervalCctv);
         },100);
         const intervalInfraestructura = setInterval(function(){
             pintarBarra(infraestructura, 11, 5, intervalInfraestructura);
